@@ -6,6 +6,12 @@
 //
 
 import UIKit
+import Qonversion
+
+var hasActiveSubscription: Bool {
+    return PremiumManager.shared.hasActiveSubscription()
+}
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,7 +32,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 private extension AppDelegate {
     
     func configure() {
+        configureQonversion()
         configureStartScreen()
+    }
+    
+    func configureQonversion() {
+        Qonversion.launch(withKey: "4FIVLtg5czIAY-EMMTpSY5Fofojaijiwq")
+        Qonversion.checkPermissions { (permissions, _) in
+            if let premium = permissions[AppConstant.permissonName] {
+                PremiumManager.shared.setSubscription(enable: premium.isActive)
+            }
+        }
+        PremiumManager.shared.completeTransaction()
     }
     
     func configureStartScreen() {

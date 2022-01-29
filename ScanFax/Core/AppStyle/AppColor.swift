@@ -21,6 +21,10 @@ enum AppColor {
         return color(fromHex: "#FFFFFF").withAlphaComponent(alpha)
     }
     
+    static func rose(alpha: CGFloat = 1.0) -> UIColor {
+        return color(fromHex: "#EC64A5").withAlphaComponent(alpha)
+    }
+    
 }
 
 // MARK: -

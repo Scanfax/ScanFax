@@ -20,7 +20,17 @@
 		538F558F27A2D14800E95634 /* LibraryViewModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F558E27A2D14800E95634 /* LibraryViewModelManager.swift */; };
 		538F559227A32D7E00E95634 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F559127A32D7E00E95634 /* UIViewExtension.swift */; };
 		538F559427A3380800E95634 /* LibraryLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F559327A3380800E95634 /* LibraryLayoutManager.swift */; };
+		6677E3077167ED046FA281EC /* Pods_ScanFax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07702FD5BEEBE411FF512394 /* Pods_ScanFax.framework */; };
 		8012EF5127A0926F00FC7A66 /* BottomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012EF5027A0926F00FC7A66 /* BottomGradientView.swift */; };
+		802F93F127A47E8F0025611E /* PremiumCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F93F027A47E8F0025611E /* PremiumCellViewModel.swift */; };
+		802F93F527A480A40025611E /* PremiumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F93F427A480A40025611E /* PremiumCollectionViewCell.swift */; };
+		802F93F727A480B60025611E /* PremiumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 802F93F627A480B60025611E /* PremiumCollectionViewCell.xib */; };
+		802F93F927A4880D0025611E /* PremiumLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F93F827A4880D0025611E /* PremiumLayoutManager.swift */; };
+		802F93FC27A48C420025611E /* PremiumCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F93FB27A48C420025611E /* PremiumCollectionViewDataSource.swift */; };
+		802F93FE27A48E970025611E /* PremiumViewModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F93FD27A48E970025611E /* PremiumViewModelManager.swift */; };
+		802F940027A48EE70025611E /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F93FF27A48EE70025611E /* AppConstant.swift */; };
+		802F940227A48FD50025611E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F940127A48FD50025611E /* StringExtension.swift */; };
+		802F940427A4904D0025611E /* SKProductExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F940327A4904D0025611E /* SKProductExtension.swift */; };
 		8040543B279FE8E900EDF467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8040543A279FE8E900EDF467 /* AppDelegate.swift */; };
 		80405444279FE8EE00EDF467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80405443279FE8EE00EDF467 /* Assets.xcassets */; };
 		80405447279FE8EE00EDF467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80405445279FE8EE00EDF467 /* LaunchScreen.storyboard */; };
@@ -46,9 +56,12 @@
 		8062BD0127A0BB3A00E5DE1C /* Premium.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8062BD0027A0BB3A00E5DE1C /* Premium.storyboard */; };
 		8062BD0327A0BB5B00E5DE1C /* PremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8062BD0227A0BB5B00E5DE1C /* PremiumViewController.swift */; };
 		8062BD0627A0BC0E00E5DE1C /* OnboardingViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8062BD0527A0BC0E00E5DE1C /* OnboardingViewControllerDelegate.swift */; };
+		8064366B27A5D9DF00AE785A /* PremuimManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064366A27A5D9DF00AE785A /* PremuimManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07702FD5BEEBE411FF512394 /* Pods_ScanFax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanFax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		195A890D90276185DA95828F /* Pods-ScanFax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanFax.debug.xcconfig"; path = "Target Support Files/Pods-ScanFax/Pods-ScanFax.debug.xcconfig"; sourceTree = "<group>"; };
 		538F556F27A2CB9100E95634 /* LibraryCollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionDataSource.swift; sourceTree = "<group>"; };
 		538F557A27A2CDAF00E95634 /* LibraryFileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFileCollectionViewCell.swift; sourceTree = "<group>"; };
 		538F557C27A2CDBB00E95634 /* LibraryDateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDateCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -62,7 +75,17 @@
 		538F558E27A2D14800E95634 /* LibraryViewModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModelManager.swift; sourceTree = "<group>"; };
 		538F559127A32D7E00E95634 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		538F559327A3380800E95634 /* LibraryLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryLayoutManager.swift; sourceTree = "<group>"; };
+		72495E1119328BABE8097808 /* Pods-ScanFax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanFax.release.xcconfig"; path = "Target Support Files/Pods-ScanFax/Pods-ScanFax.release.xcconfig"; sourceTree = "<group>"; };
 		8012EF5027A0926F00FC7A66 /* BottomGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomGradientView.swift; sourceTree = "<group>"; };
+		802F93F027A47E8F0025611E /* PremiumCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumCellViewModel.swift; sourceTree = "<group>"; };
+		802F93F427A480A40025611E /* PremiumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumCollectionViewCell.swift; sourceTree = "<group>"; };
+		802F93F627A480B60025611E /* PremiumCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PremiumCollectionViewCell.xib; sourceTree = "<group>"; };
+		802F93F827A4880D0025611E /* PremiumLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumLayoutManager.swift; sourceTree = "<group>"; };
+		802F93FB27A48C420025611E /* PremiumCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		802F93FD27A48E970025611E /* PremiumViewModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumViewModelManager.swift; sourceTree = "<group>"; };
+		802F93FF27A48EE70025611E /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		802F940127A48FD50025611E /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		802F940327A4904D0025611E /* SKProductExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKProductExtension.swift; sourceTree = "<group>"; };
 		80405437279FE8E900EDF467 /* ScanFax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanFax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8040543A279FE8E900EDF467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80405443279FE8EE00EDF467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +113,8 @@
 		8062BD0027A0BB3A00E5DE1C /* Premium.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Premium.storyboard; sourceTree = "<group>"; };
 		8062BD0227A0BB5B00E5DE1C /* PremiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumViewController.swift; sourceTree = "<group>"; };
 		8062BD0527A0BC0E00E5DE1C /* OnboardingViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewControllerDelegate.swift; sourceTree = "<group>"; };
+		8064366A27A5D9DF00AE785A /* PremuimManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremuimManager.swift; sourceTree = "<group>"; };
+		807FF3EF27A5E02800670F74 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6677E3077167ED046FA281EC /* Pods_ScanFax.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,11 +191,47 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		802F93EF27A47DDA0025611E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				802F93F027A47E8F0025611E /* PremiumCellViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		802F93F227A480830025611E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				802F93F827A4880D0025611E /* PremiumLayoutManager.swift */,
+				802F93FD27A48E970025611E /* PremiumViewModelManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		802F93F327A4808A0025611E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				802F93F427A480A40025611E /* PremiumCollectionViewCell.swift */,
+				802F93F627A480B60025611E /* PremiumCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		802F93FA27A48C210025611E /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				802F93FB27A48C420025611E /* PremiumCollectionViewDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		8040542E279FE8E800EDF467 = {
 			isa = PBXGroup;
 			children = (
 				80405439279FE8E900EDF467 /* ScanFax */,
 				80405438279FE8E900EDF467 /* Products */,
+				D523EDB7F617E59D30EB60A7 /* Pods */,
+				B02E722603BC76C0603F417D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,6 +251,7 @@
 				8040546027A0680100EDF467 /* SupportingFiles */,
 				8040543A279FE8E900EDF467 /* AppDelegate.swift */,
 				80405443279FE8EE00EDF467 /* Assets.xcassets */,
+				807FF3EF27A5E02800670F74 /* Configuration.storekit */,
 				80405445279FE8EE00EDF467 /* LaunchScreen.storyboard */,
 				80405448279FE8EE00EDF467 /* Info.plist */,
 			);
@@ -253,6 +316,8 @@
 			children = (
 				8040545427A05DDB00EDF467 /* StoryboardExtension.swift */,
 				538F559127A32D7E00E95634 /* UIViewExtension.swift */,
+				802F940127A48FD50025611E /* StringExtension.swift */,
+				802F940327A4904D0025611E /* SKProductExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -360,6 +425,7 @@
 		8062BCF527A0B5CA00E5DE1C /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				8064366927A5D9C700AE785A /* Subscription */,
 				8062BCF627A0B5D200E5DE1C /* DataBase */,
 			);
 			path = Manager;
@@ -377,6 +443,7 @@
 			isa = PBXGroup;
 			children = (
 				8062BCFB27A0B84500E5DE1C /* ScreenSize.swift */,
+				802F93FF27A48EE70025611E /* AppConstant.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -384,6 +451,10 @@
 		8062BCFD27A0BB0D00E5DE1C /* Premium */ = {
 			isa = PBXGroup;
 			children = (
+				802F93FA27A48C210025611E /* DataSource */,
+				802F93F227A480830025611E /* Manager */,
+				802F93EF27A47DDA0025611E /* Model */,
+				802F93F327A4808A0025611E /* Cell */,
 				8062BCFF27A0BB1F00E5DE1C /* Storyboard */,
 				8062BCFE27A0BB1C00E5DE1C /* ViewController */,
 			);
@@ -414,6 +485,31 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		8064366927A5D9C700AE785A /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				8064366A27A5D9DF00AE785A /* PremuimManager.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		B02E722603BC76C0603F417D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07702FD5BEEBE411FF512394 /* Pods_ScanFax.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D523EDB7F617E59D30EB60A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				195A890D90276185DA95828F /* Pods-ScanFax.debug.xcconfig */,
+				72495E1119328BABE8097808 /* Pods-ScanFax.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -421,9 +517,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8040544B279FE8EE00EDF467 /* Build configuration list for PBXNativeTarget "ScanFax" */;
 			buildPhases = (
+				8E3ACC92365D30A0008C9E78 /* [CP] Check Pods Manifest.lock */,
 				80405433279FE8E900EDF467 /* Sources */,
 				80405434279FE8E900EDF467 /* Frameworks */,
 				80405435279FE8E900EDF467 /* Resources */,
+				BA1E4AF53FB0467BAE7EFFDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -480,6 +578,7 @@
 				8040547A27A06DD100EDF467 /* OnboardingCollectionViewCell.xib in Resources */,
 				8040546B27A0687100EDF467 /* Rajdhani-Bold.ttf in Resources */,
 				8040546327A0684500EDF467 /* Manrope-SemiBold.ttf in Resources */,
+				802F93F727A480B60025611E /* PremiumCollectionViewCell.xib in Resources */,
 				8040546E27A069E600EDF467 /* Onboarding.storyboard in Resources */,
 				8040546527A0685500EDF467 /* Rajdhani-SemiBold.ttf in Resources */,
 				80405444279FE8EE00EDF467 /* Assets.xcassets in Resources */,
@@ -487,6 +586,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E3ACC92365D30A0008C9E78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanFax-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA1E4AF53FB0467BAE7EFFDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScanFax/Pods-ScanFax-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScanFax/Pods-ScanFax-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScanFax/Pods-ScanFax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80405433279FE8E900EDF467 /* Sources */ = {
@@ -503,6 +644,7 @@
 				8040547227A06A5D00EDF467 /* LibraryCoordinatorManager.swift in Sources */,
 				8040547827A06DC200EDF467 /* OnboardingCollectionViewCell.swift in Sources */,
 				8040547027A06A0600EDF467 /* OnboardingViewController.swift in Sources */,
+				8064366B27A5D9DF00AE785A /* PremuimManager.swift in Sources */,
 				538F558527A2CE7400E95634 /* LibraryDateCollectionViewModel.swift in Sources */,
 				8040547527A06CC700EDF467 /* OnboardingCellViewModel.swift in Sources */,
 				538F558727A2CE8500E95634 /* LibraryFloderCollectionViewModel.swift in Sources */,
@@ -510,17 +652,25 @@
 				538F558127A2CE3900E95634 /* LibrarySecureFloderCollectionViewCell.swift in Sources */,
 				538F558327A2CE6700E95634 /* LibraryFileCollectionViewModel.swift in Sources */,
 				538F559227A32D7E00E95634 /* UIViewExtension.swift in Sources */,
+				802F93FC27A48C420025611E /* PremiumCollectionViewDataSource.swift in Sources */,
 				538F558927A2CE9400E95634 /* LibrarySecureFloderCollectionViewModel.swift in Sources */,
+				802F940427A4904D0025611E /* SKProductExtension.swift in Sources */,
+				802F93F527A480A40025611E /* PremiumCollectionViewCell.swift in Sources */,
 				538F557027A2CB9100E95634 /* LibraryCollectionDataSource.swift in Sources */,
 				8012EF5127A0926F00FC7A66 /* BottomGradientView.swift in Sources */,
+				802F940227A48FD50025611E /* StringExtension.swift in Sources */,
+				802F93F927A4880D0025611E /* PremiumLayoutManager.swift in Sources */,
 				8040545F27A05F8F00EDF467 /* LibraryViewController.swift in Sources */,
 				8062BD0627A0BC0E00E5DE1C /* OnboardingViewControllerDelegate.swift in Sources */,
 				8062BD0327A0BB5B00E5DE1C /* PremiumViewController.swift in Sources */,
 				538F557B27A2CDAF00E95634 /* LibraryFileCollectionViewCell.swift in Sources */,
 				8062BCF127A0B38400E5DE1C /* OnboardingLayoutManager.swift in Sources */,
+				802F93F127A47E8F0025611E /* PremiumCellViewModel.swift in Sources */,
+				802F93FE27A48E970025611E /* PremiumViewModelManager.swift in Sources */,
 				538F557F27A2CDDD00E95634 /* LibraryFloderCollectionViewCell.swift in Sources */,
 				8062BCF427A0B43F00E5DE1C /* AppColor.swift in Sources */,
 				8040543B279FE8E900EDF467 /* AppDelegate.swift in Sources */,
+				802F940027A48EE70025611E /* AppConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,6 +806,7 @@
 		};
 		8040544C279FE8EE00EDF467 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195A890D90276185DA95828F /* Pods-ScanFax.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -684,6 +835,7 @@
 		};
 		8040544D279FE8EE00EDF467 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72495E1119328BABE8097808 /* Pods-ScanFax.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

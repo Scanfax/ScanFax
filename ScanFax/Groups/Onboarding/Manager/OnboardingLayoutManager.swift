@@ -33,7 +33,6 @@ class OnboardingLayoutManager {
         default:
             print("do nothing")
         }
-        
     }
     
 }

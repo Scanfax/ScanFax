@@ -13,7 +13,10 @@ class UserDefaultsManager {
     private let userDefaults = UserDefaults()
     
     enum Data: String {
+        
         case isNotFirstLaunch
+        case subscriptionIsEnabled
+        
     }
     
 }
